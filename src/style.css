@@ -336,6 +336,14 @@ nav {
 .project-links a:hover {
     text-decoration: underline;
 }
+/* New style for project links and download button layout */
+.project-links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Helps with responsiveness on small screens */
+    gap: 1rem; /* Adds some space if it wraps */
+}
 
 /* Contact Section */
 .contact-form {
